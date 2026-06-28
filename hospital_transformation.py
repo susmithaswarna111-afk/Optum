@@ -26,15 +26,15 @@ hos_df.select("Santhosh")
 
 # COMMAND ----------
 
+display(hos_df)
+
+# COMMAND ----------
+
 check_string_as_nan(hos_df)
 
 # COMMAND ----------
 
 check_duplicates(hos_df,hos_df.columns)
-
-# COMMAND ----------
-
-hos_df = hos_df.replace("NaN",None)
 
 # COMMAND ----------
 
